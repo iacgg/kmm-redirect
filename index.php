@@ -1,10 +1,10 @@
 <html>
-  ulla
-</html>
+<body>
 
-<?php
-sleep(5);
-// 301 Moved Permanently
-header("Location: https://khm.dk", true, 301);
-exit();
-?>
+<h1>Welcome to my home page!</h1>
+<p>Some text.</p>
+<p>Some more text.</p>
+<?php include 'redirect.php';?>
+
+</body>
+</html>
